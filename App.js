@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Animated } from 'react-native';
 
 export default function App() {
-  const fadeAnim = new Animated.Value(0); // Initial opacity value
+  const fadeAnim = new Animated.Value(0); 
 
   // Fade-in animation
   React.useEffect(() => {
@@ -27,7 +27,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#1E2A47', // Deep blue background
+    backgroundColor: '#1E2A47', 
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   },
   subText: {
     fontSize: 18,
-    color: '#A9A9A9', // Light gray
+    color: '#A9A9A9', 
     fontStyle: 'italic',
     textAlign: 'center',
     maxWidth: 250,
